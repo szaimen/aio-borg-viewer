@@ -11,6 +11,7 @@ RUN set -ex; \
         fuse \
         py3-llfuse \
         jq
+# TOOD: add further dependencies like e.g. nautilus and grsync and viewers like eog, gedit, onlyoffice-desktopeditors, vlc
 
 COPY startapp.sh /startapp.sh
 
